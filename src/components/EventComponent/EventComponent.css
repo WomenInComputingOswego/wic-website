@@ -1,0 +1,51 @@
+.title{
+    background-color: rgb(107, 145, 130);
+    border-radius: 30px;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    width: 460px;
+    padding: 21px;
+    position: relative;
+    top: 30px;
+    margin: auto;
+}
+
+.textblock1{
+    background-color: rgb(219, 148, 101);
+    width: 140px;
+    border-radius: 7px;
+    text-align: center;
+    font-size: 16px;
+    color: white;
+    padding: 10px;
+}
+
+.textblock2{
+    background-color: rgb(219, 148, 101);
+    width: 140px;
+    border-radius: 7px;
+    text-align: center;
+    font-size: 16px;
+    color: white;
+    padding: 10px;
+}
+
+.textblock3{
+    background-color: rgb(219, 148, 101);
+    width: 140px;
+    border-radius: 7px;
+    text-align: center;
+    font-size: 16px;
+    color: white;
+    padding: 10px;
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-container > div {
+    margin: 50px;
+}
