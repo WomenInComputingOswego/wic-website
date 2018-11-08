@@ -1,10 +1,11 @@
 import React, { Component } from "react";
+import './FooterComponent.css';
 
 class Footer extends Component{
     render(){
         return(
-            <div> </div>
-        )
+            <div className = "container"> Footer </div>
+        );
     }
 }
-export default HomePage;
+export default Footer;
