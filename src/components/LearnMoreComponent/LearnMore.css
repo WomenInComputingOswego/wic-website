@@ -20,14 +20,14 @@ html{
 #buttonContainer{
     display: flex;
     justify-content: center;
+    margin:.4rem;
 }
 
 #learnMoreButton{
-    margin: .35rem 0;
+    overflow: hidden;
     padding:.7rem 2.8rem;
     text-align: center;
-    border-radius: 15%;
     background-color:#5b7a5e;
-    color:#ecf1f4;    
-
+    color:#ecf1f4;   
+    border-radius: 20px;
 }
