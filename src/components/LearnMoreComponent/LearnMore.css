@@ -1,0 +1,33 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+html{
+    font-size: 20px;
+    line-height: 1.4rem;
+    background-color: #ecf1f4;
+}
+
+
+#headerImage{
+    margin-left: -3vw;
+    margin-top: -3vh;
+    width: 105vw;
+    max-height:90vh;
+}
+
+#buttonContainer{
+    display: flex;
+    justify-content: center;
+}
+
+#learnMoreButton{
+    margin: .35rem 0;
+    padding:.7rem 2.8rem;
+    text-align: center;
+    border-radius: 15%;
+    background-color:#5b7a5e;
+    color:#ecf1f4;    
+
+}
