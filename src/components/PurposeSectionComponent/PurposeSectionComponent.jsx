@@ -6,7 +6,7 @@ class Purpose extends Component{
         return(
             <div>
             <div className="title">Purpose</div>
-            <div className="flex-container2">
+                <div className="flex-container2">
                     <img className="image" src={require("./download (2).jpg")} alt="Ada Lovelace Hackathon" ></img>
                     <img className="image" src={require("./download.jpg")} alt="Women in Computing"></img>
                     <img className="image" src={require("./download (1).jpg")} alt="Memory"></img>
