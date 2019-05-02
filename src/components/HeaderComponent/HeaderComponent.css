@@ -1,13 +1,21 @@
 .container{
+    /* display: flex;
+    justify-content: center; */
     overflow: hidden;
     background-color: darkgray;
     padding: 0px 25px;
+    color: white;
 }
 
 .container > div{
     text-decoration: none;
     font-size: 18px; 
     border-radius: 4px;
+}
+
+.wic{
+    overflow: hidden;
+    padding: 6px 10px;
 }
 
 .logo{
@@ -27,7 +35,6 @@
 
 .container-right > div{
     float: left;
-    color: white;
     text-align: center;
     padding: 12px;
     text-decoration: none;
