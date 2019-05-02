@@ -18,8 +18,6 @@ class HeaderComponent extends Component {
         this.closeResourcesMenu = this.closeResourcesMenu.bind(this);
         this.closeAlumniMenu = this.closeAlumniMenu.bind(this);
         this.closeContactMenu = this.closeContactMenu.bind(this);
-
-
     }
 
     showAboutMenu(event) {
