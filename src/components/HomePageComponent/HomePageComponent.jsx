@@ -1,10 +1,16 @@
 import React, { Component } from "react";
-import './HomePageComponent'
+import Event from '../EventComponent/EventComponent.jsx';
+import Purpose from '../PurposeSectionComponent/PurposeSectionComponent.jsx';
+import Footer from '../FooterComponent/FooterComponent.jsx';
 
 class HomePage extends Component{
     render(){
         return(
-            <div>Home Page</div>
+            <div>
+                <Purpose/>
+                <Event/>
+                <Footer/>
+            </div>
         )
     }
 }

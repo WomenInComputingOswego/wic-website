@@ -5,16 +5,16 @@ class Purpose extends Component{
     render(){
         return(
             <div>
-            <div className="title">Purpose</div>
-                <div className="flex-container2">
-                    <img className="image" src={require("./download (2).jpg")} alt="Ada Lovelace Hackathon" ></img>
-                    <img className="image" src={require("./download.jpg")} alt="Women in Computing"></img>
-                    <img className="image" src={require("./download (1).jpg")} alt="Memory"></img>
+            <div className="purpose-title">Purpose</div>
+                <div className="purpose-flex-container2">
+                    <img className="purpose-image" src={require("./download (2).jpg")} alt="Ada Lovelace Hackathon" ></img>
+                    <img className="purpose-image" src={require("./download.jpg")} alt="Women in Computing"></img>
+                    <img className="purpose-image" src={require("./download (1).jpg")} alt="Memory"></img>
                 </div>
-                <div className="flex-container1">
-                    <div className="textblock">Creating a support system</div>
-                    <div className="textblock">Providing members with a professional network of female engineers</div>
-                    <div className="textblock">Serving the community</div>
+                <div className="purpose-flex-container1">
+                    <div className="purpose-textblock">Creating a support system</div>
+                    <div className="purpose-textblock">Providing members with a professional network of female engineers</div>
+                    <div className="purpose-textblock">Serving the community</div>
                 </div>
             </div>
         )

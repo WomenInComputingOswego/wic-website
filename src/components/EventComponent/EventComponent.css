@@ -1,4 +1,4 @@
-.title{
+.event-title{
     background-color: rgb(107, 145, 130);
     border-radius: 30px;
     color: white;
@@ -7,11 +7,11 @@
     width: 460px;
     padding: 21px;
     position: relative;
-    top: 30px;
+    top: 50px;
     margin: auto;
 }
 
-.textblock1{
+.event-textblock1{
     background-color: rgb(219, 148, 101);
     flex: 0 0 140px;
     border-radius: 7px;
@@ -22,7 +22,7 @@
     margin: 0px 130px;
 }
 
-.textblock2{
+.event-textblock2{
     background-color: rgb(219, 148, 101);
     flex: 0 0 140px;
     border-radius: 7px;
@@ -33,7 +33,7 @@
     margin: 0px 130px;
 }
 
-.textblock3{
+.event-textblock3{
     background-color: rgb(219, 148, 101);
     flex: 0 0 140px;
     border-radius: 7px;
@@ -44,26 +44,26 @@
     margin: 0px 130px;
 }
 
-.flex-container1{
+.event-flex-container1{
     display: flex;
     justify-content: center;
 }
 
-.flex-container1 > div {
+.event-flex-container1 > div {
     margin-top: 50px;
 }
 
-.flex-container2{
+.event-flex-container2{
     display: flex;
     justify-content: center;
     margin-top: 100px;
 }
 
-.image{
-    margin: 0px 69px;
+.event-image{
+    margin: 0px 40px;
     flex-grow: 0;
     flex-shrink: 0;
-    width: 280px;
-    height: 350px;
+    width: 380px;
+    height: 270px;
     border-radius: 20px;
 }
